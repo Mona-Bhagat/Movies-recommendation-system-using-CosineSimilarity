@@ -22,21 +22,20 @@ The primary dataset used for this analysis is the multivariate type of dataset "
   
 # Steps involved
 
-* Import of required libraries
-* import of data
+* Import of data and required libraries/dependencies
 * Relevant features selection from data for recommendation 
 * Replacing the null values with null string
-* Combining all the 5 selected featres
-* Converting the text data to feature vectors
+* Combining all the 5 selected features
+* Converting the text data to feature vectors (Text Vectorization)
 * getting the similarity scores using cosine similarity
 * Getting the movie name from the user
-* finding the close match for the movie name given by the user
-* getting a list of similar movies
+* Finding the close match for the movie name given by the user
+* Getting a list of similar movies
 
 
 # Results
 We tested our model with a couple of very famous movies such as 'Jurassic Park' and 'Harry Potter and the Chamber of Secrets'. The model build was able to good results for 'Jurassic Park' choices such as  'The Lost World: Jurassic Park' and 'ET' 
-which are science fiction and adventure movies. Further, we tested it with the animated movie 'Finding Nemo' and gave recommendations such as 'Shark Tale' which is related to fish, and an animated movie; to suggesting 'John Carter' which shares the
+which are science fiction and adventure movies. Further, we tested it with the animated movie 'Finding Nemo' and gave recommendations such as 'Shark Tale' which is related to fish (an animated movie); to suggesting 'John Carter' which shares the
 same director as Finding Nemo 'Andrew Stanton'. One of our 5 chosen features was the director, people at times prefer to watch movies made by the same director as their favorite movie.
 The complete list is below:
 
